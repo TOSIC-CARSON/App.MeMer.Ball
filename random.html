@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p> You press i give you money yes?</p>
+        <button onclick="displayDate()"> Click me Le Mans!</button>
+        <p id="demo"></p>
+        <p>press i make sound</p>
+        <button onclick="playAudio()">Click me Le Mans 69'</button>
+        <p id="myAudio"></p>
+
+        <script>
+            function displayDate(){
+                document.getElementById("demo").innerHTML = Date();
+            }
+      
+            var x = document.getElementById("myAudio");
+            function playAudio(){
+                x.play();
+            }       
+            function pauseAudio(){
+                x.pauseAudio;
+            }     
+        </script>
+    </body>
+</html>

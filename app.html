@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Magic MeMer Ball</title>
+        <style>
+            body{
+                background-color:black;
+                padding: 0;
+                margin: 0; 
+            }
+            .container{
+                width:425px;
+                position: relative;
+                margin: 20vh auto;
+            }
+            h1{
+                text-align: center;
+                color:white;
+            }
+            p{
+                font-size: 16px;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Aks me anything.</h1>
+            <textarea style="resize: none;" placeholder="question her plz"></textarea>
+            <button onclick="Answer()">Big Boi Answer</button>
+            <p id="Answer"></p>
+        </div>
+        <script>
+            var Answers=[
+                "No u",
+                "Dont know",
+                "The way has been showen",
+                "Very Yes",
+                "Why you bolling me",
+                "What do you think i am",
+                "How baw dah",
+                "Are you da QWEEN",
+                "Fortnite account has been deleted",
+                "Door STUCK!!!!!",
+                "send boob and vegana",
+                "aUTo SNipEr",
+                "Knobhead",
+                "first let me hop out the motherfucking porsche ",
+                "Slob on ma knob",
+                "Go get some professional  help",
+                "Go Away",
+                "yes?",
+                "Tottaly",
+                "21",
+                "go commit toster bath",
+                "you now have a free N-word pass",
+                "go take a shower",
+                "oh oh stinky",
+                ""
+
+                ]
+            function Answer(){
+                var random = Answers[Math.floor(Math.random() * Answers.length)];
+                document.getElementById('Answer').innerHTML = random;
+
+            }
+        </script>
+    </body>
+</html>
